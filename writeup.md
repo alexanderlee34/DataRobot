@@ -21,12 +21,9 @@ data is trained, and 20 percent of the data is tested to predict the class assig
 is only 55.56 percent.  The accuracy is based on the whether the predicted classes match the actual assigned classes 
 or not for the tested portion of the data.  The results are shown in the confusion matrix that shows the number of correct predictions for "yes" and "no", false positives, and false negatives.  Please note that the value of the prediction accuracy will vary if the R code is run multiple times.  In fact, the 95 percent CI of the prediction accuracy is [0.381, 0.7206].
 
-Based on the 95 percent CI of the prediction accuracy, on average the 10-fold cross validation is 55 percent accurate. 
-Hence, the predictions are not very accurate.  Such prediction accuracy is very similar to the odds of you winning 
+Based on the 95 percent CI of the prediction accuracy, on average the 10-fold cross validation is 55 percent accurate. Hence, the predictions are not very accurate.  Such prediction accuracy is very similar to the odds of you winning 
 when you hold pocket queen's in a Texas Hold'em heads up poker game after you call your opponent's preflop all-in, 
-and your opponent shows that he has ace king suited.  In fact, the odds of you winning in this scenario is 54 percent.
-Your opponent can beat you if he gets a straight, a flush, or if either an ace or king hits among the community cards.
-Hence, it is hard to predict who will win at the end; the odds of winning is more like a coin-flip.
+and your opponent shows that he has ace king suited.  In fact, despite holding a pocket pair, the odds of you winning in this scenario is only 54 percent.  Your opponent can beat you if he gets a straight, a flush, or if either an ace or king hits among the community cards.  Hence, it is hard to predict who will win at the end; the odds of winning is more like a coin-flip.
 
 In addition, based on research papers that I have read on accident rates vs. increased speed limit in journals such as
 Transporation Research and Accident Analysis / Prevention for my research, they concluded that increasing the speed
