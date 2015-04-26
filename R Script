@@ -1,0 +1,15 @@
+> library(caret)
+> library(pls)
+> library(e1071)
+> library(MASS)
+> data(Traffic)
+> set.seed(125)
+> inTrain <- createDataPartition(y=Traffic$limit, p=0.80, list=FALSE)
+> training <- Traffic[inTrain,]
+> testing <- Traffic[-inTrain,]
+> ctrl <- trainControl(method="cv")
+> plsFit <- train(limit ~ ., data=training, method="pls", trControl=ctrl, preProc=c("center", "scale"))
+> plsClasses <- predict(plsFit, newdata = testing)
+> plsProbs <- predict(plsFit, newdata = testing, type = "prob")
+> head(plsProbs)		
+> confusionMatrix(data = plsClasses, testing$limit)
