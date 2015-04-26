@@ -35,7 +35,7 @@ analysis, we can treat the lack of speed limit enforcement as if the speed limit
 drive faster when the speed limit is not enforced.
 
 Furthermore, if we take a closer look into the data of 184 datapoints, we can see that around 2/3 of the data is 
-classified as "no", while the other 1/2 of the data is classified as "yes".  It would be better if the ratio of the
+classified as "no", while the other 1/3 of the data is classified as "yes".  It would be better if the ratio of the
 class assigned for the given data is around 50/50, and if we have more datapoints for the given dataset.  Also, if we
 use the head function under the R package caret, the subset of predictions that is shown for the testing portion of
 the data yield a 55-65 percent class probability in terms of predicting the class for the data.  Moreoever, the 
