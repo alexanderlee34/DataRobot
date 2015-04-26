@@ -1,0 +1,5 @@
+> A<-read.csv("C:/Users/Alexander S. Lee/Desktop/traffic.txt",header=FALSE)
+> L = A$V1 == 1
+> accidentrate.yes = A[L,]$V4
+> accidentrate.no = A[!L,]$V4
+> t.test(accidentrate.yes, accidentrate.no, conf.level=0.95)
