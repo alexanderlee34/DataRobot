@@ -19,9 +19,7 @@ indicates that it is likely that the speed limit was enforced for that case.
 However, the predictions are not very good.  If we use 10-fold cross validation through R, where 80 percent of the
 data is trained, and 20 percent of the data is tested to predict the class assigned to them, the prediction accuracy 
 is only 55.56 percent.  The accuracy is based on the whether the predicted classes match the actual assigned classes 
-or not for the tested data.  The results are shown in the confusion matrix that show the number of correct predictions
-for "yes" and "no", false positives, and false negatives.  Please note that the value of the prediction accuracy will
-vary if the R code is run multiple times.  In fact, the 95 percent CI of the prediction accuracy is [0.381, 0.7206].
+or not for the tested portion of the data.  The results are shown in the confusion matrix that show the number of correct predictions for "yes" and "no", false positives, and false negatives.  Please note that the value of the prediction accuracy will vary if the R code is run multiple times.  In fact, the 95 percent CI of the prediction accuracy is [0.381, 0.7206].
 
 Based on the 95 percent CI of the prediction accuracy, on average the 10-fold cross validation is 55 percent accurate. 
 Hence, the predictions are not very accurate.  Such prediction accuracy is very similar to the odds of you winning 
