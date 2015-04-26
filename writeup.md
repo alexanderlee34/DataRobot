@@ -34,7 +34,7 @@ justify that increasing the speed limit increases accident rates.  Going back to
 analysis, we can treat the lack of speed limit enforcement as if the speed limit increased, since drivers tend to 
 drive faster when the speed limit is not enforced.
 
-Furthermore, if we take a close look into the data of 184 datapoints, we can see that around 2/3 of the data is 
+Furthermore, if we take a closer look into the data of 184 datapoints, we can see that around 2/3 of the data is 
 classified as "no", while the other 1/2 of the data is classified as "yes".  It would be better if the ratio of the
 class assigned for the given data is around 50/50, and if we have more datapoints for the given dataset.  Also, if we
 use the head function under the R package caret, the subset of predictions that is shown for the testing portion of
