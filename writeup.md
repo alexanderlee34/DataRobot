@@ -38,5 +38,5 @@ Furthermore, if we take a closer look into the data of 184 datapoints, we can se
 classified as "no", while the other 1/3 of the data is classified as "yes".  It would be better if the ratio of the
 class assigned for the given data is around 50/50, and if we have more datapoints for the given dataset.  Also, if we
 use the head function under the R package caret, the subset of predictions that is shown for the testing portion of
-the data yield a 55-65 percent class probability in terms of predicting the class for the data.  The model's predictions are very uncertain.  Moreoever, the dataset does not take into consideration weather factors.  If it was raining or snowing, the number of accidents per day would very likely increase regardless of whether the speed limit was enforced or not.
+the data yield a 55-65 percent class probability in terms of predicting the class for the data; the model's predictions are very uncertain.  Moreoever, the dataset does not take into consideration weather factors.  If it was raining or snowing, the number of accidents per day would very likely increase regardless of whether the speed limit was enforced or not.
 
