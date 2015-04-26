@@ -2,7 +2,7 @@ Please note that in order for me to get the predictions using R from the model b
 I need the googlepredictionapi R package.  However, I was not able to install the package, because it was out-of-date, 
 and it was the only one available online.  I got the predictions from the Google Prediction API and R separately.
 
-Using R, I found the 95 percent confidence interval using the two sample t-test to see if the difference between the 
+Using R, I found the 95 percent confidence interval using the two-sample t-test to see if the difference between the 
 number of accidents per day when the speed limit was enforced and the number of accidents per day when the speed limit
 was not enforced is statistically significant or not.  The 95 percent CI is [-6.666816, -1.767967].  Since zero is not
 within the CI, we can say that at alpha=0.05, the difference is statistically significant.  In fact, the mean number of
